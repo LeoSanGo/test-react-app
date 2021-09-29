@@ -1,5 +1,6 @@
 import "./styles.css";
 import Header from "./components/Header";
+import Content from "./components/Content";
 
 export default function App() {
   const name = "Dionga";
@@ -13,6 +14,7 @@ export default function App() {
       <h1>Hello Test</h1>
       <h2>Hello {name}</h2>
       <h1>{funcao()}</h1>
+      <Content />
     </div>
   );
 }
